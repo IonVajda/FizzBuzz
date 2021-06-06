@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Fizzbuzz",
+  "main": "js/fizzbuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonVajda/FizzBuzz.git"
+  },
+  "author": "Ion Vajda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IonVajda/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/IonVajda/FizzBuzz#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
