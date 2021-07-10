@@ -5,10 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>FizzBuzz</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1>Welcome to FizzBuzz</h1>
+        <p>Multiples of 3 returns "Fiz", multiples of 5 returns "Buzz" and multiples of both returns "FizzBuzz".</p>
+        <label>
+            <span>Enter a number:</span>
+            <input type="text" id="fizzValue" name="fizz">
+        </label>
+        <label>
+            <span>Enter another number:</span>
+            <input type="text" id="buzzValue" name="buzz">
+        </label>
+        <input type="submit" onclick="buzzIt()" value="Play">
+        <div id="results"></div>
+    </div>
 
     <script src="./js/fizzbuzz.js"></script>
 </body>

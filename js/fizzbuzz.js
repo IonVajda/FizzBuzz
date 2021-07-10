@@ -74,10 +74,15 @@ const fizzbuzz4 = (val1, val2) => {
   return resultArr;
 };
 
-fizzbuzz();
-fizzbuzz2();
-fizzbuzz3();
-reverseFizzbuzz();
-fizzbuzz4();
+// Call and use fizzbuzz function
+function buzzIt() {
+  let output = [];
+  let val1 = document.getElementById("fizzValue").value;
+  let val2 = document.getElementById("buzzValue").value;
+  output = fizzbuzz(val1, val2);
+  document.getElementById("results").innerHTML = output.join(" ");
+  document.getElementById("fizzValue").value = "";
+  document.getElementById("buzzValue").value = "";
+}
 
 module.exports = { fizzbuzz, fizzbuzz2, fizzbuzz3, reverseFizzbuzz, fizzbuzz4 };
